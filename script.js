@@ -3,13 +3,7 @@ const hamburger = document.querySelector('.hamburger');
 const navLinks = document.querySelector('.nav-links');
 const links = document.querySelectorAll('.nav-links li');
 //extra code
-const form = document.getElementById("contact-form");
-const status = document.getElementById("form-status");
 
-form.addEventListener("submit", () => {
-    status.textContent = "Sending message...";
-    status.style.color = "#555";
-});
 //extra code
 
 hamburger.addEventListener('click', () => {
@@ -244,4 +238,5 @@ document.addEventListener('DOMContentLoaded', function() {
             }
         }
     });
+});
 });
